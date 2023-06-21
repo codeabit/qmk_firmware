@@ -37,10 +37,10 @@
         "KC_COMM",
         "KC_DOT",
         "KC_SLSH",
-        "LT(1,KC_SPC)",
+        "LT(1,KC_BSPC)",
         "LT(2,KC_TAB)",
         "LT(3,KC_ENT)",
-        "LT(4,KC_BSPC)"
+        "LT(4,KC_SPC)"
       ],
       [
         "KC_NO",
