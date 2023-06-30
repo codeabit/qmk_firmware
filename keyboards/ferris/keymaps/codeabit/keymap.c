@@ -40,21 +40,18 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 enum myCombos {
     LFT_ESC,
     RGT_ESC,
+		LFT_BOOT,
+		RGT_BOOT,
     COMBO_LENGTH
 };
 uint16_t COMBO_LEN = COMBO_LENGTH;
 const uint16_t PROGMEM escape_combo1[] = {KC_E, KC_R, COMBO_END};
 const uint16_t PROGMEM escape_combo2[] = {KC_U, KC_I, COMBO_END};
+const uint16_t PROGMEM left_bootloader_combo[] = {KC_Q, KC_T, KC_B, KC_Z, COMBO_END};
+const uint16_t PROGMEM right_bootloader_combo[] = {KC_Y, KC_P, KC_N, KC_SLASH, COMBO_END};
 combo_t key_combos[] = {
     COMBO(escape_combo1, KC_ESC),
     COMBO(escape_combo2, KC_ESC),
+    COMBO(left_bootloader_combo, QK_BOOT),
+    COMBO(right_bootloader_combo, QK_BOOT),
 };
-
-// #if defined(ENCODER_ENABLE) && defined(ENCODER_MAP_ENABLE)
-// const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
-
-// };
-// #endif // defined(ENCODER_ENABLE) && defined(ENCODER_MAP_ENABLE)
-
-
-
