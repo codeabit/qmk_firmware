@@ -3,7 +3,7 @@
 /* 
  * This file was originally converted using qmk json2c from my qmk configurator json file and then modified by codeabit
  */
- 
+
 // Tap Dance declarations
 enum {
     TD_3_DOT,
