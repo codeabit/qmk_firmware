@@ -8,7 +8,7 @@ My customizations are all on the `codeabit-ferris` branch. My repo is forked fro
 
 To build the firmware, navigate into the `codeabit` folder an run `./build.sh`. Since I'm running on an Apple Silicon Mac, I launch a container running linux with the `qmk_firmware` folder mounted to do the actual build. It's bit slower doing the build on folder mounted from MacOS, but it has the advantage that I can just run the script and the `.hex` firmware is generated right in the `codeabit` folder. The build requires that docker is installed and running.
 
-To install, I've been using QMK Toolbox. I installed the `qmk-toolbox` from homebrew. To program the keyboard, just connect the USB-C cable to the keyboard, momentarily hold down the outer corner keys on the keyboard to put it into flash mode, and then click the "Flash" button on the QMK Toolbox.
+To install, I've been using QMK Toolbox. I installed the `qmk-toolbox` from homebrew. To program the keyboard, just connect the USB-C cable to the keyboard, momentarily hold down the outer corner keys on the keyboard to put it into flash mode, and then click the "Flash" button on the QMK Toolbox. Each side needs to be flashed separately.
 
 ![QMK Toolbox](./qmk-toolbox.png)
 
