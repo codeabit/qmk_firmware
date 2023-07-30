@@ -1,3 +1,7 @@
+# Codeabit Ferris Sweep Keyboard
+
+To build firmware for the codeabit ferris sweep keyboard, navigate to the [codeabit-ferris branch](https://github.com/codeabit/qmk_firmware/tree/codeabit-ferris).
+
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
