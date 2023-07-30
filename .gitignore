@@ -90,6 +90,7 @@ tags
 
 # Allow specific image files
 !qmk-toolbox.png
+!ferris-sweep.png
 
 # Things Travis sees
 /.vs

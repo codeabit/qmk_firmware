@@ -2,6 +2,8 @@
 
 I use this repo to build customized QMK firmware for my ferris sweep keyboard.
 
+![Ferris Sweep](./ferris-sweep.png)
+
 My customizations are all on the `codeabit-ferris` branch. My repo is forked from `keyboard-magpie/qmk_firmware` because that's where I purchased my board and their board was designed with non-standard wiring so I can't directly fork from `qmk/qmk_firmware`.
 
 To build the firmware, navigate into the `codeabit` folder an run `./build.sh`. Since I'm running on an Apple Silicon Mac, I launch a container running linux with the `qmk_firmware` folder mounted to do the actual build. It's bit slower doing the build on folder mounted from MacOS, but it has the advantage that I can just run the script and the `.hex` firmware is generated right in the `codeabit` folder. The build requires that docker is installed and running.
