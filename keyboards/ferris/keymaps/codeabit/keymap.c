@@ -24,7 +24,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	[1] = LAYOUT_split_3x5_2(
 		KC_NO, 				KC_NO, 				KC_NO, 				KC_NO, 				KC_NO, 							KC_LBRC, 			KC_7, 				KC_8, 				KC_9, 				KC_RBRC, 
 		KC_LSFT, 			KC_LCTL, 			KC_LALT, 			KC_LGUI, 			KC_NO, 							KC_QUOTE, 		KC_4, 				KC_5, 				KC_6, 				KC_EQL, 
-		KC_NO, 				KC_NO, 				KC_NO, 				KC_NO, 				KC_NO, 							KC_GRV, 			KC_1, 				KC_2, 				TD(TD_3_DOT),	KC_BSLS, 
+		KC_NO, 				KC_NO, 				KC_NO, 				KC_NO, 				KC_NO, 							KC_GRV, 			KC_1, 				KC_2, 				KC_3,					KC_BSLS, 
 																							KC_NO, 				KC_NO, 							KC_MINS, 			KC_0),
 
 	[2] = LAYOUT_split_3x5_2(
@@ -55,8 +55,8 @@ enum myCombos {
     COMBO_LENGTH
 };
 uint16_t COMBO_LEN = COMBO_LENGTH;
-const uint16_t PROGMEM escape_combo1[] = {KC_E, KC_R, COMBO_END};
-const uint16_t PROGMEM escape_combo2[] = {KC_U, KC_I, COMBO_END};
+const uint16_t PROGMEM escape_combo1[] = {KC_W, KC_E, KC_R, COMBO_END};
+const uint16_t PROGMEM escape_combo2[] = {KC_U, KC_I, KC_O, COMBO_END};
 const uint16_t PROGMEM left_bootloader_combo[] = {KC_Q, KC_T, KC_B, KC_Z, COMBO_END};
 const uint16_t PROGMEM right_bootloader_combo[] = {KC_Y, KC_P, KC_N, KC_SLASH, COMBO_END};
 combo_t key_combos[] = {

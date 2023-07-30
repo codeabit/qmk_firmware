@@ -9,4 +9,4 @@ echo 'Working dir: '$SCRIPTDIR
 
 docker run --rm -v $SCRIPTDIR:/root/qmk_firmware codeabit_qmk_firmware 
 
-mv ../*.hex ./
+mv *.hex ./codeabit
